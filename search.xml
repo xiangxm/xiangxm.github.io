@@ -62,6 +62,406 @@
 ]]></content>
     </entry>
     
+    <entry>
+      <title><![CDATA[Android Studio在Windows和Mac下的常用快捷键]]></title>
+      <url>http://xiangxm.github.io/ASKeys.html</url>
+      <content type="html"><![CDATA[<h2 id="Android-Studio在Windows和Mac下的常用快捷键"><a href="#Android-Studio在Windows和Mac下的常用快捷键" class="headerlink" title="Android Studio在Windows和Mac下的常用快捷键"></a>Android Studio在Windows和Mac下的常用快捷键</h2><h4 id="查看变量或者方法的注释"><a href="#查看变量或者方法的注释" class="headerlink" title="查看变量或者方法的注释"></a>查看变量或者方法的注释</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Q</td>
+</tr>
+</tbody>
+</table>
+<h4 id="打开Action"><a href="#打开Action" class="headerlink" title="打开Action"></a>打开Action</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">java Ctrl + Shift + A</td>
+<td style="text-align:center">Cmd + Shift +A</td>
+</tr>
+</tbody>
+</table>
+<h4 id="快速导入包，并且去除无效包import"><a href="#快速导入包，并且去除无效包import" class="headerlink" title="快速导入包，并且去除无效包import"></a>快速导入包，并且去除无效包import</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Alt + O</td>
+</tr>
+</tbody>
+</table>
+<h4 id="搜索某一个类"><a href="#搜索某一个类" class="headerlink" title="搜索某一个类"></a>搜索某一个类</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + N</td>
+</tr>
+</tbody>
+</table>
+<h4 id="搜索某一个文件"><a href="#搜索某一个文件" class="headerlink" title="搜索某一个文件"></a>搜索某一个文件</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Shift + N</td>
+</tr>
+</tbody>
+</table>
+<h4 id="全局搜索文件"><a href="#全局搜索文件" class="headerlink" title="全局搜索文件"></a>全局搜索文件</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Double Shift Search everywhere</td>
+</tr>
+</tbody>
+</table>
+<h4 id="返回到上一次编辑的地方"><a href="#返回到上一次编辑的地方" class="headerlink" title="返回到上一次编辑的地方"></a>返回到上一次编辑的地方</h4><table>
+<thead>
+<tr>
+<th>Windows</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alt + Right/Left Go to next/previous editor tab</td>
+</tr>
+</tbody>
+</table>
+<h4 id="返回到上一个光标位置"><a href="#返回到上一个光标位置" class="headerlink" title="返回到上一个光标位置"></a>返回到上一个光标位置</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Alt + 左右方向键</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳转到某一行"><a href="#跳转到某一行" class="headerlink" title="跳转到某一行"></a>跳转到某一行</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + G</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳转到具体注释"><a href="#跳转到具体注释" class="headerlink" title="跳转到具体注释"></a>跳转到具体注释</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + B , Ctrl + Click Go to declaration</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳转到上一个或者下一个方法"><a href="#跳转到上一个或者下一个方法" class="headerlink" title="跳转到上一个或者下一个方法"></a>跳转到上一个或者下一个方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alt + Up/Down Go to previous/next method</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳转到上一个或者下一个错误、警告提示的地方"><a href="#跳转到上一个或者下一个错误、警告提示的地方" class="headerlink" title="跳转到上一个或者下一个错误、警告提示的地方"></a>跳转到上一个或者下一个错误、警告提示的地方</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">F2 /  F2 + Shift</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳转到父类方法"><a href="#跳转到父类方法" class="headerlink" title="跳转到父类方法"></a>跳转到父类方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + U Go to super-method/super-class</td>
+</tr>
+</tbody>
+</table>
+<h4 id="成员列表视图"><a href="#成员列表视图" class="headerlink" title="成员列表视图"></a>成员列表视图</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + F12 File structure popup</td>
+</tr>
+</tbody>
+</table>
+<h4 id="搜索并替换"><a href="#搜索并替换" class="headerlink" title="搜索并替换"></a>搜索并替换</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + R Replace</td>
+</tr>
+</tbody>
+</table>
+<h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + F    Find</td>
+</tr>
+</tbody>
+</table>
+<h4 id="关闭单个TAB"><a href="#关闭单个TAB" class="headerlink" title="关闭单个TAB"></a>关闭单个TAB</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + F4 Close active editor tab</td>
+</tr>
+</tbody>
+</table>
+<h4 id="删除单词"><a href="#删除单词" class="headerlink" title="删除单词"></a>删除单词</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Delete Delete to word end</td>
+</tr>
+</tbody>
+</table>
+<h4 id="快速显示提示"><a href="#快速显示提示" class="headerlink" title="快速显示提示"></a>快速显示提示</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alt + Enter Show intention actions and quick-fixes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="快速添加代码块"><a href="#快速添加代码块" class="headerlink" title="快速添加代码块"></a>快速添加代码块</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Alt + T Surround with… (if..else, try..catch, for,</td>
+</tr>
+</tbody>
+</table>
+<h4 id="插入Getter和Setter方法"><a href="#插入Getter和Setter方法" class="headerlink" title="插入Getter和Setter方法"></a>插入Getter和Setter方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alt + Insert Generate code… (Getters, Setters, Constructors,</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Override方法"><a href="#Override方法" class="headerlink" title="Override方法"></a>Override方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + O Override methods</td>
+</tr>
+</tbody>
+</table>
+<h4 id="重命名文件，如果是在文件内部，则可以一次性重命名变量"><a href="#重命名文件，如果是在文件内部，则可以一次性重命名变量" class="headerlink" title="重命名文件，如果是在文件内部，则可以一次性重命名变量"></a>重命名文件，如果是在文件内部，则可以一次性重命名变量</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Shift + F6 Rename</td>
+</tr>
+</tbody>
+</table>
+<h4 id="插入事先定义好的模板"><a href="#插入事先定义好的模板" class="headerlink" title="插入事先定义好的模板"></a>插入事先定义好的模板</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + J Insert Live Template</td>
+</tr>
+</tbody>
+</table>
+<h4 id="单步调试"><a href="#单步调试" class="headerlink" title="单步调试"></a>单步调试</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">F8 Step over</td>
+</tr>
+</tbody>
+</table>
+<h4 id="跳出调试方法"><a href="#跳出调试方法" class="headerlink" title="跳出调试方法"></a>跳出调试方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Shift + F8 Step out</td>
+</tr>
+</tbody>
+</table>
+<h4 id="单步调试进入方法"><a href="#单步调试进入方法" class="headerlink" title="单步调试进入方法"></a>单步调试进入方法</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">F7 Step into</td>
+</tr>
+</tbody>
+</table>
+<h4 id="在TAB之间切换"><a href="#在TAB之间切换" class="headerlink" title="在TAB之间切换"></a>在TAB之间切换</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Tab Switch between tabs and tool window</td>
+</tr>
+</tbody>
+</table>
+<h4 id="格式化代码"><a href="#格式化代码" class="headerlink" title="格式化代码"></a>格式化代码</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Alt + L</td>
+</tr>
+</tbody>
+</table>
+<h4 id="将当前方法代码块与前一个-后一个方法位置对调-光标需要移动到大括号位置"><a href="#将当前方法代码块与前一个-后一个方法位置对调-光标需要移动到大括号位置" class="headerlink" title="将当前方法代码块与前一个/后一个方法位置对调(光标需要移动到大括号位置)"></a>将当前方法代码块与前一个/后一个方法位置对调(光标需要移动到大括号位置)</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 方向上/下键</td>
+</tr>
+</tbody>
+</table>
+<h3 id="相关插件快捷键"><a href="#相关插件快捷键" class="headerlink" title="相关插件快捷键"></a>相关插件快捷键</h3><h4 id="GSON数据格式化-生产Parcelable-Serializable数据。"><a href="#GSON数据格式化-生产Parcelable-Serializable数据。" class="headerlink" title="GSON数据格式化,生产Parcelable/Serializable数据。"></a>GSON数据格式化,生产Parcelable/Serializable数据。</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Alt + S</div></pre></td></tr></table></figure>
+<h4 id="对生命周期方法排序"><a href="#对生命周期方法排序" class="headerlink" title="对生命周期方法排序"></a>对生命周期方法排序</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Code-Sort Lifecycle Methods</div></pre></td></tr></table></figure>
+<h4 id="在线请求json数据"><a href="#在线请求json数据" class="headerlink" title="在线请求json数据"></a>在线请求json数据</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">View-JSONViewer</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
   
   
 </search>
