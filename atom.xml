@@ -485,6 +485,30 @@
   </entry>
   
   <entry>
+    <title>Hexo next主题设置</title>
+    <link href="http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html"/>
+    <id>http://xxiang1x.com/2016/Hexo-next主题设置.html</id>
+    <published>2016-10-16T02:32:15.000Z</published>
+    <updated>2016-10-25T23:34:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Next 主题的设置文档&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://xxiang1x.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://xxiang1x.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://xxiang1x.com/2016/hello-world.html"/>
     <id>http://xxiang1x.com/2016/hello-world.html</id>
@@ -510,30 +534,6 @@
     
       <category term="Hexo" scheme="http://xxiang1x.com/categories/Hexo/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo next主题设置</title>
-    <link href="http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html"/>
-    <id>http://xxiang1x.com/2016/Hexo-next主题设置.html</id>
-    <published>2016-10-16T02:32:15.000Z</published>
-    <updated>2016-10-25T23:34:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Next 主题的设置文档&lt;/a&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://xxiang1x.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://xxiang1x.com/tags/Hexo/"/>
     
   </entry>
   
