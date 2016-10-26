@@ -188,7 +188,7 @@ body {
   font-family: 'monospace', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
+  color: #262626;
   background: #fff;
 }
 @media (max-width: 767px) {
@@ -277,7 +277,7 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+  color: #262626;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
@@ -737,7 +737,7 @@ pre .javascript .function {
   font-size: 14px;
   color: #fff;
   background: #222;
-  border: 2px solid #555;
+  border: 2px solid #262626;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -755,7 +755,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #262626;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1236,7 +1236,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #262626;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1318,7 +1318,7 @@ pre .javascript .function {
   margin-top: 50px;
 }
 .post-more-link .btn {
-  color: #555;
+  color: #262626;
   font-size: 14px;
   background: #fff;
   border-radius: 2px;
@@ -1350,7 +1350,7 @@ pre .javascript .function {
   display: inline-block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #262626;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1414,7 +1414,7 @@ pre .javascript .function {
 }
 .sidebar a {
   color: #999;
-  border-bottom-color: #555;
+  border-bottom-color: #262626;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1547,7 +1547,7 @@ pre .javascript .function {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #555;
+  border-bottom-color: #262626;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff3978;
+  background: #37ff04;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1584,7 +1584,7 @@ pre .javascript .function {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #555;
+  color: #262626;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -2111,7 +2111,7 @@ a.search-result {
   width: 10px;
   height: 10px;
   opacity: 0.5;
-  background: #555;
+  background: #262626;
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -2410,7 +2410,7 @@ body {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #555;
+  color: #262626;
   background: #fff;
 }
 .sidebar-inner.affix {
@@ -2430,7 +2430,7 @@ body {
   clear: both;
 }
 .sidebar a {
-  color: #555;
+  color: #262626;
 }
 .sidebar a:hover {
   color: #222;
