@@ -8,5 +8,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://lancelot_lewis.coding.me/sitemap.xml
-Sitemap: http://lancelot_lewis.coding.me/baidusitemap.xml
+Sitemap: http://xxiang1x.com/sitemap.xml
+Sitemap: http://xxiang1x.com/baidusitemap.xml
