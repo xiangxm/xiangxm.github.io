@@ -180,15 +180,15 @@ th {
   padding: 0;
 }
 ::selection {
-  background: #262a30;
+  background: #fc6423;
   color: #fff;
 }
 body {
   position: relative;
   font-family: 'monospace', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
-  color: #262626;
+  color: #252525;
   background: #fff;
 }
 @media (max-width: 767px) {
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 h1,
@@ -277,14 +277,14 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #262626;
+  color: #252525;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
-  border-bottom-color: #222;
+  color: #f30;
+  border-bottom-color: #f30;
 }
 ul {
   list-style: none;
@@ -414,7 +414,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid #ddd;
-  font-size: 14px;
+  font-size: 15px;
   table-layout: fixed;
   word-wrap: break-all;
 }
@@ -736,8 +736,8 @@ pre .javascript .function {
   padding: 0 20px;
   font-size: 14px;
   color: #fff;
-  background: #222;
-  border: 2px solid #262626;
+  background: #f30;
+  border: 2px solid #252525;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -747,15 +747,15 @@ pre .javascript .function {
 }
 .btn:hover,
 .post-more-link .btn:hover {
-  border-color: #222;
+  border-color: #f30;
   color: #fff;
-  background: #222;
+  background: #f30;
 }
 .btn-bar {
   display: block;
   width: 22px;
   height: 2px;
-  background: #262626;
+  background: #252525;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -800,7 +800,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #222;
+  border-top-color: #f30;
 }
 .pagination .space {
   padding: 0;
@@ -831,7 +831,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #222;
+    border-bottom-color: #f30;
   }
 }
 .comments {
@@ -852,7 +852,7 @@ pre .javascript .function {
   z-index: 1050;
   padding: 0 6px;
   width: 25px;
-  background: #222;
+  background: #f30;
   font-size: 12px;
   opacity: 0.6;
   color: #fff;
@@ -884,8 +884,8 @@ pre .javascript .function {
   position: relative;
 }
 .headband {
-  height: 3px;
-  background: #222;
+  height: 2px;
+  background: #f30;
 }
 .site-meta {
   margin: 0;
@@ -901,7 +901,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
+  background: #f30;
   border-bottom: none;
 }
 .brand:hover {
@@ -999,7 +999,7 @@ pre .javascript .function {
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
-  border-bottom-color: #222;
+  border-bottom-color: #f30;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1026,7 +1026,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: 10px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1191,7 +1191,7 @@ pre .javascript .function {
   border-bottom-color: #666;
 }
 .posts-collapse .post-header:hover::before {
-  background: #222;
+  background: #f30;
 }
 .posts-collapse .post-meta {
   position: absolute;
@@ -1236,7 +1236,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #262626;
+  color: #252525;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1318,7 +1318,7 @@ pre .javascript .function {
   margin-top: 50px;
 }
 .post-more-link .btn {
-  color: #262626;
+  color: #252525;
   font-size: 14px;
   background: #fff;
   border-radius: 2px;
@@ -1350,11 +1350,11 @@ pre .javascript .function {
   display: inline-block;
   line-height: 25px;
   font-size: 14px;
-  color: #262626;
+  color: #252525;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #f30;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1409,12 +1409,12 @@ pre .javascript .function {
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
-  background: #222;
+  background: #f30;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
   color: #999;
-  border-bottom-color: #262626;
+  border-bottom-color: #252525;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1442,7 +1442,7 @@ pre .javascript .function {
   width: 15px;
   height: 15px;
   padding: 5px;
-  background: #222;
+  background: #f30;
   line-height: 0;
   z-index: 1050;
   cursor: pointer;
@@ -1481,7 +1481,7 @@ pre .javascript .function {
 .site-author-name {
   margin: 0;
   text-align: center;
-  color: #222;
+  color: #f30;
   font-weight: 600;
 }
 .site-description {
@@ -1547,7 +1547,7 @@ pre .javascript .function {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #262626;
+  border-bottom-color: #252525;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #37ff04;
+  background: #7dbb94;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1584,7 +1584,7 @@ pre .javascript .function {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #262626;
+  color: #252525;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -2111,7 +2111,7 @@ a.search-result {
   width: 10px;
   height: 10px;
   opacity: 0.5;
-  background: #262626;
+  background: #252525;
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -2312,7 +2312,7 @@ body {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #222;
+  background: #f30;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
@@ -2410,7 +2410,7 @@ body {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #262626;
+  color: #252525;
   background: #fff;
 }
 .sidebar-inner.affix {
@@ -2430,10 +2430,10 @@ body {
   clear: both;
 }
 .sidebar a {
-  color: #262626;
+  color: #252525;
 }
 .sidebar a:hover {
-  color: #222;
+  color: #f30;
 }
 .links-of-author-item a:before {
   display: none;
