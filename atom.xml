@@ -553,9 +553,14 @@
     <link href="http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
     <id>http://xxiang1x.com/2016/js基础知识.html</id>
     <published>2016-10-20T12:06:38.000Z</published>
-    <updated>2016-10-25T23:33:36.000Z</updated>
+    <updated>2016-10-27T15:43:57.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="JS中部分基础知识"><a href="#JS中部分基础知识" class="headerlink" title="JS中部分基础知识"></a>JS中部分基础知识</h1><ul>
+    <content type="html"><![CDATA[<blockquote>
+<p>JS中部分基础知识</p>
+<p>最近特别想学习一下前端开发，比较Full- Stack - Engineer 才是未来发展的趋势。学习比较来自幕课网学习记录。</p>
+<p>不怕别人比你聪明，就怕比你聪明的人比你更努力！！</p>
+</blockquote>
+<ul>
 <li>slice() 从指定数组中返回选定的元素</li>
 </ul>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">arr.slice(start,end) 类似于String.slice()和Array.slice()方法</div><div class="line">&lt;script type="text/javascript"&gt;</div><div class="line">  var myarr = new Array(1,2,3,4,5,6);</div><div class="line">  document.write(myarr + "&lt;br&gt;");</div><div class="line">  document.write(myarr.slice(2,4) + "&lt;br&gt;");</div><div class="line">  document.write(myarr);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
@@ -606,15 +611,22 @@
     <link href="http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html"/>
     <id>http://xxiang1x.com/2016/Hexo-next主题设置.html</id>
     <published>2016-10-16T02:32:15.000Z</published>
-    <updated>2016-10-25T23:34:53.000Z</updated>
+    <updated>2016-10-27T15:47:23.000Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
+    <content type="html"><![CDATA[<blockquote>
+<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以充实的记录生活、工作、学习中的总结。</p>
+<p>至少看得到脚印。</p>
+</blockquote>
+<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Next 主题的设置文档&lt;/a&gt;&lt;/p&gt;
-
+      &lt;blockquote&gt;
+&lt;p&gt;最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以充实的记录生活、工作、学习中的总结。&lt;/p&gt;
+&lt;p&gt;至少看得到脚印。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://theme-next.iissn
     
     </summary>
     
