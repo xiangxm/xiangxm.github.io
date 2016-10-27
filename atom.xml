@@ -5,11 +5,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xxiang1x.com/"/>
-  <updated>2016-10-27T15:39:30.000Z</updated>
+  <updated>2016-10-27T22:43:11.000Z</updated>
   <id>http://xxiang1x.com/</id>
   
   <author>
-    <name>Rico.Xiang</name>
+    <name>Rico</name>
     <email>xiangxm_wh@163.com</email>
   </author>
   
@@ -20,12 +20,12 @@
     <link href="http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html"/>
     <id>http://xxiang1x.com/2016/Android Studio在Windows和Mac下的常用快捷键.html</id>
     <published>2016-10-27T03:39:23.000Z</published>
-    <updated>2016-10-27T15:39:30.000Z</updated>
+    <updated>2016-10-27T22:43:11.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>Android Studio在Windows和Mac下的常用快捷键</p>
 <p>鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码，复制一行代码等等都没有写下来，因为太频繁不会忘。</p>
-<p>这只是一个简单的总结，当然随着逐步的使用，也会不断Update上来:)</p>
+<p>随着逐步的使用，也会不断Update上来:)</p>
+<p>如有错误的地方，欢迎批评指正，Thanks very muck:）</p>
 </blockquote>
 <h4 id="查看变量或者方法的注释"><a href="#查看变量或者方法的注释" class="headerlink" title="查看变量或者方法的注释"></a>查看变量或者方法的注释</h4><table>
 <thead>
@@ -315,6 +315,7 @@
 <tbody>
 <tr>
 <td style="text-align:center">Alt + Insert Generate code… (Getters, Setters, Constructors,</td>
+<td style="text-align:center">Command + N</td>
 </tr>
 </tbody>
 </table>
@@ -536,8 +537,8 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;Android Studio在Windows和Mac下的常用快捷键&lt;/p&gt;
-&lt;p&gt;鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码
+&lt;p&gt;鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码，复制一行代码等等都没有写下来，因为太频繁不会忘。&lt;/p&gt;
+&lt;p&gt;随着逐步的使用，
     
     </summary>
     
@@ -553,11 +554,10 @@
     <link href="http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
     <id>http://xxiang1x.com/2016/js基础知识.html</id>
     <published>2016-10-20T12:06:38.000Z</published>
-    <updated>2016-10-27T15:43:57.000Z</updated>
+    <updated>2016-10-27T22:41:08.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>JS中部分基础知识</p>
-<p>最近特别想学习一下前端开发，比较Full- Stack - Engineer 才是未来发展的趋势。学习比较来自幕课网学习记录。</p>
+<p>最近特别想学习一下前端开发，还好之前有web基础学起来还算快，主要还是要项目实战，Full- Stack - Engineer 是未来发展的趋势。学习笔记来自幕课网学习记录。</p>
 <p>不怕别人比你聪明，就怕比你聪明的人比你更努力！！</p>
 </blockquote>
 <ul>
@@ -611,11 +611,10 @@
     <link href="http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html"/>
     <id>http://xxiang1x.com/2016/Hexo-next主题设置.html</id>
     <published>2016-10-16T02:32:15.000Z</published>
-    <updated>2016-10-27T15:47:23.000Z</updated>
+    <updated>2016-10-27T22:38:59.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以充实的记录生活、工作、学习中的总结。</p>
-<p>至少看得到脚印。</p>
+<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。</p>
 </blockquote>
 <p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
 ]]></content>
@@ -623,10 +622,9 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以充实的记录生活、工作、学习中的总结。&lt;/p&gt;
-&lt;p&gt;至少看得到脚印。&lt;/p&gt;
+&lt;p&gt;最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://theme-next.iissn
+&lt;p&gt;&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_b
     
     </summary>
     
