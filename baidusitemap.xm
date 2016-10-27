@@ -5,11 +5,11 @@
     
   <url>
     <loc>http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</loc>
-    <lastmod>2016-10-26T12:23:41.000Z</lastmod>
+    <lastmod>2016-10-27T15:39:30.000Z</lastmod>
     <data>
         <display>
         <title>Android Studio在Windows和Mac下的常用快捷键</title>
-        <pubTime>2016-10-26T02:32:15.000Z</pubTime>
+        <pubTime>2016-10-27T03:39:23.000Z</pubTime>
         
         <tag>Android Studio</tag>
          
