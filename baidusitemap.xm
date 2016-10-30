@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>
+    <lastmod>2016-10-30T03:14:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>js基础知识</title>
+        <pubTime>2016-10-20T12:06:38.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://xxiang1x.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</loc>
-    <lastmod>2016-10-30T02:59:45.000Z</lastmod>
+    <lastmod>2016-10-30T03:07:00.000Z</lastmod>
     <data>
         <display>
         <title>git学习</title>
@@ -44,26 +64,6 @@
 
     
     
-    
-  <url>
-    <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>
-    <lastmod>2016-10-27T22:41:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>js基础知识</title>
-        <pubTime>2016-10-20T12:06:38.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="JavaScript" url="http://xxiang1x.com/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</loc>
