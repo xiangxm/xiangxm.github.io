@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</loc>
-    <lastmod>2016-10-29T06:12:57.000Z</lastmod>
+    <lastmod>2016-10-30T02:59:45.000Z</lastmod>
     <data>
         <display>
         <title>git学习</title>
@@ -15,6 +15,9 @@
          
          
            
+             
+              <breadCrumb title="git使用" url="http://xxiang1x.com/categories/git%E4%BD%BF%E7%94%A8/"/>
+          
         </display>
     </data>
     </url>
