@@ -3,11 +3,26 @@
 
 
     
-    
+  <url>
+    <loc>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</loc>
+    <lastmod>2016-10-29T06:12:57.000Z</lastmod>
+    <data>
+        <display>
+        <title>git学习</title>
+        <pubTime>2016-10-29T06:10:22.000Z</pubTime>
+        
+        <tag>git使用</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</loc>
-    <lastmod>2016-10-27T22:43:11.000Z</lastmod>
+    <lastmod>2016-10-29T05:48:57.000Z</lastmod>
     <data>
         <display>
         <title>Android Studio在Windows和Mac下的常用快捷键</title>
@@ -24,6 +39,8 @@
     </data>
     </url>
 
+    
+    
     
   <url>
     <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>

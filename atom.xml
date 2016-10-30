@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xxiang1x.com/"/>
-  <updated>2016-10-27T22:43:11.000Z</updated>
+  <updated>2016-10-29T06:12:57.000Z</updated>
   <id>http://xxiang1x.com/</id>
   
   <author>
@@ -16,17 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git学习</title>
+    <link href="http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html"/>
+    <id>http://xxiang1x.com/2016/git学习.html</id>
+    <published>2016-10-29T06:10:22.000Z</published>
+    <updated>2016-10-29T06:12:57.000Z</updated>
+    
+    <summary type="html">
+    
+      git使用
+    
+    </summary>
+    
+    
+      <category term="git使用" scheme="http://xxiang1x.com/tags/git%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android Studio在Windows和Mac下的常用快捷键</title>
     <link href="http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html"/>
     <id>http://xxiang1x.com/2016/Android Studio在Windows和Mac下的常用快捷键.html</id>
     <published>2016-10-27T03:39:23.000Z</published>
-    <updated>2016-10-27T22:43:11.000Z</updated>
+    <updated>2016-10-29T05:48:57.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码，复制一行代码等等都没有写下来，因为太频繁不会忘。</p>
 <p>随着逐步的使用，也会不断Update上来:)</p>
-<p>如有错误的地方，欢迎批评指正，Thanks very muck:）</p>
+<p>如有错误的地方，欢迎批评指正，Thanks very much:）</p>
 </blockquote>
+<a id="more"></a>
 <h4 id="查看变量或者方法的注释"><a href="#查看变量或者方法的注释" class="headerlink" title="查看变量或者方法的注释"></a>查看变量或者方法的注释</h4><table>
 <thead>
 <tr>
@@ -538,7 +557,9 @@
     
       &lt;blockquote&gt;
 &lt;p&gt;鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码，复制一行代码等等都没有写下来，因为太频繁不会忘。&lt;/p&gt;
-&lt;p&gt;随着逐步的使用，
+&lt;p&gt;随着逐步的使用，也会不断Update上来:)&lt;/p&gt;
+&lt;p&gt;如有错误的地方，欢迎批评指正，Thanks very much:）&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     

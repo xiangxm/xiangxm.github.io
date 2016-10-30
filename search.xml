@@ -4,13 +4,20 @@
   
     
     <entry>
+      <title><![CDATA[git学习]]></title>
+      <url>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Android Studio在Windows和Mac下的常用快捷键]]></title>
       <url>http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>鉴于平时在Windows 和Mac环境下切换比较频繁，有些时候快捷键都混淆，所以在这里将比较常用的集中起来这样每次忘记了可以速查一下。一部分最频繁的比如删除某一行代码，复制一行代码等等都没有写下来，因为太频繁不会忘。</p>
 <p>随着逐步的使用，也会不断Update上来:)</p>
-<p>如有错误的地方，欢迎批评指正，Thanks very muck:）</p>
+<p>如有错误的地方，欢迎批评指正，Thanks very much:）</p>
 </blockquote>
+<a id="more"></a>
 <h4 id="查看变量或者方法的注释"><a href="#查看变量或者方法的注释" class="headerlink" title="查看变量或者方法的注释"></a>查看变量或者方法的注释</h4><table>
 <thead>
 <tr>
