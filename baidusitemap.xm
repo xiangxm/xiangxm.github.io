@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
+    <lastmod>2016-11-09T14:02:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>git学习</title>
+        <pubTime>2016-11-09T14:00:33.000Z</pubTime>
+        
+        <tag>前端开发</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端开发" url="http://xxiang1x.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>
-    <lastmod>2016-10-30T03:14:35.000Z</lastmod>
+    <lastmod>2016-11-09T14:01:15.000Z</lastmod>
     <data>
         <display>
         <title>js基础知识</title>

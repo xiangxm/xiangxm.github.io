@@ -116,7 +116,7 @@
 <meta property="og:image" content="http://img.mukewang.com/5354d2810001a47706210213.jpg">
 <meta property="og:image" content="http://img.mukewang.com/53605c5a0001b26909900216.jpg">
 <meta property="og:image" content="http://img.mukewang.com/5354b1eb00016a2405170126.jpg">
-<meta property="og:updated_time" content="2016-10-30T03:14:35.000Z">
+<meta property="og:updated_time" content="2016-11-09T14:01:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js基础知识">
 <meta name="twitter:description" content="最近特别想学习一下前端开发，还好之前有web基础学起来还算快，主要还是要项目实战，Full- Stack - Engineer 是未来发展的趋势。学习笔记来自幕课网学习记录。不怕别人比你聪明，就怕比你聪明的人比你更努力！！">
@@ -571,7 +571,7 @@
 <ul>
 <li>setInterval(method_name) 或者 setInterval(“method_name()”); 下面是实现一个计时器：</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">  <span class="keyword">var</span> attime;</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">clock</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> time=<span class="keyword">new</span> <span class="built_in">Date</span>();          </div><div class="line">    attime=time.getHours()+<span class="string">":"</span>+time.getMinutes()+<span class="string">":"</span>+time.getSeconds(); ;</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"clock"</span>).value = attime;</div><div class="line">  &#125;</div><div class="line">  setInterval(<span class="string">"clock()"</span>,<span class="number">1000</span>);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">  <span class="keyword">var</span> attime;</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">clock</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> time=<span class="keyword">new</span> <span class="built_in">Date</span>();          </div><div class="line">    attime=time.getHours()+<span class="string">":"</span>+time.getMinutes()+<span class="string">":"</span>+time.getSeconds(); ;</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"clock"</span>).value = attime;</div><div class="line">  &#125;</div><div class="line">  setInterval(<span class="string">"clock()"</span>,<span class="number">1000</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
 <ul>
 <li>Navigator对象返回浏览器的相关信息</li>
 </ul>
@@ -580,7 +580,7 @@
 <li>screen对象用于获取用户的屏幕相关信息</li>
 </ul>
 <p><img src="http://img.mukewang.com/5354d2810001a47706210213.jpg" alt="http://img.mukewang.com/5354d2810001a47706210213.jpg"></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="keyword">var</span> aWidth = screen.availWidth;</div><div class="line">    <span class="keyword">var</span> aHeight = screen.availHeight;</div><div class="line">    <span class="keyword">var</span> sWidth = screen.width;</div><div class="line">    <span class="keyword">var</span> sHeight = screen.height;</div><div class="line">    </div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕宽度："</span> + sWidth);</div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕高度："</span> + sHeight);       </div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Avaliable Width&amp;Height:"</span> + aWidth +<span class="string">","</span> + aHeight);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="keyword">var</span> aWidth = screen.availWidth;</div><div class="line">    <span class="keyword">var</span> aHeight = screen.availHeight;</div><div class="line">    <span class="keyword">var</span> sWidth = screen.width;</div><div class="line">    <span class="keyword">var</span> sHeight = screen.height;</div><div class="line">    </div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕宽度："</span> + sWidth);</div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕高度："</span> + sHeight);       </div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Avaliable Width&amp;Height:"</span> + aWidth +<span class="string">","</span> + aHeight);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
 <ul>
 <li>Location对象</li>
 </ul>
@@ -634,8 +634,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/Hexo-next主题设置.html" rel="next" title="Hexo next主题设置">
-                <i class="fa fa-chevron-left"></i> Hexo next主题设置
+              <a href="/2016/hello-world.html" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -738,7 +738,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -746,7 +746,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -755,7 +755,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>

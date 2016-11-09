@@ -5,6 +5,39 @@
     
     <entry>
       <title><![CDATA[git学习]]></title>
+      <url>http://xxiang1x.com/2016/front-end-learn.html</url>
+      <content type="html"><![CDATA[<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><p><a href="https://github.com/AlloyTeam" target="_blank" rel="external">腾讯 AlloyTeam</a>==&gt;地址:<a href="http://alloyteam.github.io/" target="_blank" rel="external">http://alloyteam.github.io/</a></p>
+<p><a href="http://www.w3schools.com/" target="_blank" rel="external">w3schools</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference" target="_blank" rel="external">CSS速查</a></p>
+<h3 id="前端开发者博客"><a href="#前端开发者博客" class="headerlink" title="前端开发者博客"></a>前端开发者博客</h3><p><a href="http://www.cnblogs.com/libin-1/p/5999149.html" target="_blank" rel="external">Chrome自带开发者工具的使用</a></p>
+<blockquote>
+<p>html在移动设备上通用部分</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题-Android WebView可以获取<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"format-detection"</span> <span class="attr">content</span>=<span class="string">"telephone=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black"</span>/&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"这个是测试页面"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">""</span>/&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--body--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="QA"><a href="#QA" class="headerlink" title="QA:"></a>QA:</h3><blockquote>
+<ol>
+<li>DIV中元素居中（比如div下包含a标签，如何让a标签居中显示）</li>
+<li>div整个居中 <a href="https://github.com/simaQ/cssfun/issues/3" target="_blank" rel="external">https://github.com/simaQ/cssfun/issues/3</a></li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; 	position: relative;</div><div class="line">&gt;     width: <span class="number">90</span>%;</div><div class="line">&gt;     margin: auto;</div><div class="line">&gt;     display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+</blockquote>
+<p>&gt;</p>
+<blockquote>
+<ol>
+<li><p>javascript:void(0)含义</p>
+</li>
+<li><p>设置界面内容不溢出或者自动换行 </p>
+</li>
+<li><p>相关属性</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;    ::-webkit-input-placeholder &#123;</div><div class="line">&gt;    		text-align: right;</div><div class="line">&gt;    	&#125;</div><div class="line">&gt;    ::-moz-placeholder &#123;</div><div class="line">&gt;    		text-align: right;</div><div class="line">&gt;    	&#125;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git学习]]></title>
       <url>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>Git 是一种版本控制系统。在开发过程中，为了跟踪代码，文档，项目等信息中的变化，版本控制变得前所未有的重要。 相比集中式版本控制系统如 SVN ，分布式版本控制系统 Git 拥有更强大的分支管理与合并能力，支持离线开发，并良好地保留了提交过程，让您和您的团队在开发过程中如虎添翼。 同时相较于传统的代码都是管理到本机或者内网。 一旦本机或者内网机器出问题，代码可能会丢失，使用远端代码仓库将永远存在一个备份。同时也免去了搭建本地代码版本控制服务的繁琐。 云计算时代 Git 以其强大的分支和克隆功能，更加方便了开发者远程协作。   —引用自coding.net</p>
@@ -559,7 +592,7 @@
 <ul>
 <li>setInterval(method_name) 或者 setInterval(“method_name()”); 下面是实现一个计时器：</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">  <span class="keyword">var</span> attime;</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">clock</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> time=<span class="keyword">new</span> <span class="built_in">Date</span>();          </div><div class="line">    attime=time.getHours()+<span class="string">":"</span>+time.getMinutes()+<span class="string">":"</span>+time.getSeconds(); ;</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"clock"</span>).value = attime;</div><div class="line">  &#125;</div><div class="line">  setInterval(<span class="string">"clock()"</span>,<span class="number">1000</span>);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">  <span class="keyword">var</span> attime;</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">clock</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> time=<span class="keyword">new</span> <span class="built_in">Date</span>();          </div><div class="line">    attime=time.getHours()+<span class="string">":"</span>+time.getMinutes()+<span class="string">":"</span>+time.getSeconds(); ;</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"clock"</span>).value = attime;</div><div class="line">  &#125;</div><div class="line">  setInterval(<span class="string">"clock()"</span>,<span class="number">1000</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
 <ul>
 <li>Navigator对象返回浏览器的相关信息</li>
 </ul>
@@ -568,23 +601,13 @@
 <li>screen对象用于获取用户的屏幕相关信息</li>
 </ul>
 <p><img src="http://img.mukewang.com/5354d2810001a47706210213.jpg" alt="http://img.mukewang.com/5354d2810001a47706210213.jpg"></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="keyword">var</span> aWidth = screen.availWidth;</div><div class="line">    <span class="keyword">var</span> aHeight = screen.availHeight;</div><div class="line">    <span class="keyword">var</span> sWidth = screen.width;</div><div class="line">    <span class="keyword">var</span> sHeight = screen.height;</div><div class="line">    </div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕宽度："</span> + sWidth);</div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕高度："</span> + sHeight);       </div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Avaliable Width&amp;Height:"</span> + aWidth +<span class="string">","</span> + aHeight);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="keyword">var</span> aWidth = screen.availWidth;</div><div class="line">    <span class="keyword">var</span> aHeight = screen.availHeight;</div><div class="line">    <span class="keyword">var</span> sWidth = screen.width;</div><div class="line">    <span class="keyword">var</span> sHeight = screen.height;</div><div class="line">    </div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕宽度："</span> + sWidth);</div><div class="line">    <span class="built_in">document</span>.write( <span class="string">"屏幕高度："</span> + sHeight);       </div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Avaliable Width&amp;Height:"</span> + aWidth +<span class="string">","</span> + aHeight);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
 <ul>
 <li>Location对象</li>
 </ul>
 <p><img src="http://img.mukewang.com/53605c5a0001b26909900216.jpg" alt="http://img.mukewang.com/53605c5a0001b26909900216.jpg"></p>
 <p><code>相关方法:</code></p>
 <p><img src="http://img.mukewang.com/5354b1eb00016a2405170126.jpg" alt="http://img.mukewang.com/5354b1eb00016a2405170126.jpg"></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hexo next主题设置]]></title>
-      <url>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。</p>
-</blockquote>
-<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
 ]]></content>
     </entry>
     
@@ -600,6 +623,16 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo next主题设置]]></title>
+      <url>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。</p>
+</blockquote>
+<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
 ]]></content>
     </entry>
     
