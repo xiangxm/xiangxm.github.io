@@ -4,25 +4,22 @@
   
     
     <entry>
-      <title><![CDATA[git学习]]></title>
+      <title><![CDATA[前端开发学习笔记]]></title>
       <url>http://xxiang1x.com/2016/front-end-learn.html</url>
-      <content type="html"><![CDATA[<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><p><a href="https://github.com/AlloyTeam" target="_blank" rel="external">腾讯 AlloyTeam</a>==&gt;地址:<a href="http://alloyteam.github.io/" target="_blank" rel="external">http://alloyteam.github.io/</a></p>
+      <content type="html"><![CDATA[<h2 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h2><p><a href="https://github.com/AlloyTeam" target="_blank" rel="external">腾讯 AlloyTeam</a>==&gt;地址:<a href="http://alloyteam.github.io/" target="_blank" rel="external">http://alloyteam.github.io/</a></p>
 <p><a href="http://www.w3schools.com/" target="_blank" rel="external">w3schools</a></p>
 <p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference" target="_blank" rel="external">CSS速查</a></p>
-<h3 id="前端开发者博客"><a href="#前端开发者博客" class="headerlink" title="前端开发者博客"></a>前端开发者博客</h3><p><a href="http://www.cnblogs.com/libin-1/p/5999149.html" target="_blank" rel="external">Chrome自带开发者工具的使用</a></p>
+<h2 id="前端开发者博客"><a href="#前端开发者博客" class="headerlink" title="前端开发者博客"></a>前端开发者博客</h2><p><a href="http://www.cnblogs.com/libin-1/p/5999149.html" target="_blank" rel="external">Chrome自带开发者工具的使用</a></p>
 <blockquote>
 <p>html在移动设备上通用部分</p>
 </blockquote>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题-Android WebView可以获取<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"format-detection"</span> <span class="attr">content</span>=<span class="string">"telephone=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black"</span>/&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"这个是测试页面"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">""</span>/&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--body--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
-<h3 id="QA"><a href="#QA" class="headerlink" title="QA:"></a>QA:</h3><blockquote>
+<h2 id="QA"><a href="#QA" class="headerlink" title="QA:"></a>QA:</h2><blockquote>
 <ol>
 <li>DIV中元素居中（比如div下包含a标签，如何让a标签居中显示）</li>
 <li>div整个居中 <a href="https://github.com/simaQ/cssfun/issues/3" target="_blank" rel="external">https://github.com/simaQ/cssfun/issues/3</a></li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; 	position: relative;</div><div class="line">&gt;     width: <span class="number">90</span>%;</div><div class="line">&gt;     margin: auto;</div><div class="line">&gt;     display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-</blockquote>
-<p>&gt;</p>
-<blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt;position: relative;</div><div class="line">&gt;width: <span class="number">90</span>%;</div><div class="line">&gt;margin: auto;</div><div class="line">&gt;display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
 <ol>
 <li><p>javascript:void(0)含义</p>
 </li>
@@ -612,6 +609,16 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Hexo next主题设置]]></title>
+      <url>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。</p>
+</blockquote>
+<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>http://xxiang1x.com/2016/hello-world.html</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -623,16 +630,6 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hexo next主题设置]]></title>
-      <url>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>最近在网络各路大神的文档指导以及自我研究，搭建了自己的静态博客，希望可以记录生活、工作、学习中的总结。</p>
-</blockquote>
-<p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Hexo Next 主题的设置文档</a></p>
 ]]></content>
     </entry>
     

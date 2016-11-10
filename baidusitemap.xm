@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
-    <lastmod>2016-11-09T14:02:24.000Z</lastmod>
+    <lastmod>2016-11-09T14:06:03.000Z</lastmod>
     <data>
         <display>
-        <title>git学习</title>
+        <title>前端开发学习笔记</title>
         <pubTime>2016-11-09T14:00:33.000Z</pubTime>
         
         <tag>前端开发</tag>
