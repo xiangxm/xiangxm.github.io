@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
-    <lastmod>2016-11-09T14:06:03.000Z</lastmod>
+    <lastmod>2016-11-13T02:59:49.000Z</lastmod>
     <data>
         <display>
         <title>前端开发学习笔记</title>

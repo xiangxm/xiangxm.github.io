@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xxiang1x.com/"/>
-  <updated>2016-11-09T14:06:03.000Z</updated>
+  <updated>2016-11-13T02:59:49.000Z</updated>
   <id>http://xxiang1x.com/</id>
   
   <author>
@@ -20,13 +20,14 @@
     <link href="http://xxiang1x.com/2016/front-end-learn.html"/>
     <id>http://xxiang1x.com/2016/front-end-learn.html</id>
     <published>2016-11-09T14:00:33.000Z</published>
-    <updated>2016-11-09T14:06:03.000Z</updated>
+    <updated>2016-11-13T02:59:49.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h2><p><a href="https://github.com/AlloyTeam" target="_blank" rel="external">腾讯 AlloyTeam</a>==&gt;地址:<a href="http://alloyteam.github.io/" target="_blank" rel="external">http://alloyteam.github.io/</a></p>
 <p><a href="http://www.w3schools.com/" target="_blank" rel="external">w3schools</a></p>
 <p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference" target="_blank" rel="external">CSS速查</a></p>
 <h2 id="前端开发者博客"><a href="#前端开发者博客" class="headerlink" title="前端开发者博客"></a>前端开发者博客</h2><p><a href="http://www.cnblogs.com/libin-1/p/5999149.html" target="_blank" rel="external">Chrome自带开发者工具的使用</a></p>
-<blockquote>
+<p><a href="https://qianlongo.github.io/2016/04/19/%E8%81%8A%E4%B8%80%E8%81%8A%E8%BF%99%E4%BA%9B%E5%B8%B8%E8%A7%81%E8%80%8C%E4%B8%94%E5%AE%9E%E7%94%A8%E7%9A%84css%E6%8A%80%E5%B7%A7/" target="_blank" rel="external">一些实用的CSS技巧</a></p>
+<h3 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h3><blockquote>
 <p>html在移动设备上通用部分</p>
 </blockquote>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题-Android WebView可以获取<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"format-detection"</span> <span class="attr">content</span>=<span class="string">"telephone=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black"</span>/&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"这个是测试页面"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">""</span>/&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--body--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -35,7 +36,7 @@
 <li>DIV中元素居中（比如div下包含a标签，如何让a标签居中显示）</li>
 <li>div整个居中 <a href="https://github.com/simaQ/cssfun/issues/3" target="_blank" rel="external">https://github.com/simaQ/cssfun/issues/3</a></li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt;position: relative;</div><div class="line">&gt;width: <span class="number">90</span>%;</div><div class="line">&gt;margin: auto;</div><div class="line">&gt;display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; position: relative;</div><div class="line">&gt; width: <span class="number">90</span>%;</div><div class="line">&gt; margin: auto;</div><div class="line">&gt; display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
 <ol>
 <li><p>javascript:void(0)含义</p>
 </li>
