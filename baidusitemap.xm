@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://xxiang1x.com/2016/html5-demo-login.html</loc>
-    <lastmod>2016-11-15T13:46:58.000Z</lastmod>
+    <lastmod>2016-11-15T13:49:19.000Z</lastmod>
     <data>
         <display>
         <title>html5-demo-登录</title>
