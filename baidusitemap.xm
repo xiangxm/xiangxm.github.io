@@ -4,8 +4,83 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/html5-demo-login.html</loc>
+    <lastmod>2016-11-15T13:46:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>html5-demo-登录</title>
+        <pubTime>2016-11-15T13:43:08.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+         
+           
+             
+              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/html5-demo-check.html</loc>
+    <lastmod>2016-11-15T13:46:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>html5-demo-审核</title>
+        <pubTime>2016-11-15T13:43:08.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+         
+           
+             
+              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/html5-demo-add.html</loc>
+    <lastmod>2016-11-15T13:46:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>html5-demo-新增</title>
+        <pubTime>2016-11-15T13:43:08.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+         
+           
+             
+              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/html5-demo.html</loc>
+    <lastmod>2016-11-15T13:43:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>html5-demo</title>
+        <pubTime>2016-11-15T13:43:08.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
-    <lastmod>2016-11-13T02:59:49.000Z</lastmod>
+    <lastmod>2016-11-13T08:16:16.000Z</lastmod>
     <data>
         <display>
         <title>前端开发学习笔记</title>
