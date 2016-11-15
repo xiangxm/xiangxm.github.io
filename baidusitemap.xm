@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>http://xxiang1x.com/2016/html5-demo-login.html</loc>
     <lastmod>2016-11-15T13:49:19.000Z</lastmod>
@@ -58,21 +59,6 @@
              
               <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xxiang1x.com/2016/html5-demo.html</loc>
-    <lastmod>2016-11-15T13:43:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>html5-demo</title>
-        <pubTime>2016-11-15T13:43:08.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
@@ -157,7 +143,6 @@
     </data>
     </url>
 
-    
     
     
   <url>
