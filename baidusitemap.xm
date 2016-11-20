@@ -4,28 +4,8 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8ul%E5%88%9B%E5%BB%BA%E8%8F%9C%E5%8D%95%E6%A0%8F.html</loc>
-    <lastmod>2016-11-17T15:12:11.000Z</lastmod>
-    <data>
-        <display>
-        <title>使用ul标签创建菜单栏</title>
-        <pubTime>2016-11-17T15:04:32.000Z</pubTime>
-        
-        <tag>HTML5</tag>
-         
-         
-           
-             
-              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xxiang1x.com/2016/CSS%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%9F%A5%E7%9C%8B%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E5%92%8C%E7%BC%A9%E5%B0%8F%E5%8A%A8%E7%94%BB.html</loc>
-    <lastmod>2016-11-17T15:09:44.000Z</lastmod>
+    <lastmod>2016-11-20T11:26:34.000Z</lastmod>
     <data>
         <display>
         <title>CSS简单实现图片查看，支持图片放大和缩小动画</title>
@@ -44,15 +24,20 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/test.html</loc>
-    <lastmod>2016-11-17T15:04:32.000Z</lastmod>
+    <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8ul%E5%88%9B%E5%BB%BA%E8%8F%9C%E5%8D%95%E6%A0%8F.html</loc>
+    <lastmod>2016-11-17T15:12:11.000Z</lastmod>
     <data>
         <display>
-        <title>test</title>
+        <title>使用ul标签创建菜单栏</title>
         <pubTime>2016-11-17T15:04:32.000Z</pubTime>
         
+        <tag>HTML5</tag>
+         
          
            
+             
+              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
+          
         </display>
     </data>
     </url>

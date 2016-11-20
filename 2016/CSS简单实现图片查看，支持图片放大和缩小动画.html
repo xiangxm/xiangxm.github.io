@@ -105,17 +105,17 @@
 
 
 
-<meta name="description" content="最近因为想做一下前端开发，换个口味，所以也在不断地学习前端方面的知识。纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
+<meta name="description" content="纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSS简单实现图片查看，支持图片放大和缩小动画">
 <meta property="og:url" content="http://xxiang1x.com/2016/CSS简单实现图片查看，支持图片放大和缩小动画.html">
 <meta property="og:site_name" content="Rico's Blog">
-<meta property="og:description" content="最近因为想做一下前端开发，换个口味，所以也在不断地学习前端方面的知识。纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
+<meta property="og:description" content="纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
 <meta property="og:image" content="http://of4osh4j5.bkt.clouddn.com/images-loop.gif">
-<meta property="og:updated_time" content="2016-11-17T15:09:44.000Z">
+<meta property="og:updated_time" content="2016-11-20T11:26:34.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS简单实现图片查看，支持图片放大和缩小动画">
-<meta name="twitter:description" content="最近因为想做一下前端开发，换个口味，所以也在不断地学习前端方面的知识。纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
+<meta name="twitter:description" content="纯属训练。CSS简单实现图片查看，支持图片放大和缩小动画。">
 <meta name="twitter:image" content="http://of4osh4j5.bkt.clouddn.com/images-loop.gif">
 
 
@@ -409,7 +409,7 @@
 <ol>
 <li>最后就是jquery代码，使用jquery animate动画</li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"http://code.jquery.com/jquery-latest.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line"></div><div class="line">    $(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">        $(<span class="string">"a &gt; img"</span>).mouseover(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">            $(<span class="keyword">this</span>).animate(&#123;<span class="attr">width</span>: <span class="string">'400px'</span>, <span class="attr">height</span>: <span class="string">'400px'</span>&#125;, <span class="string">'slow'</span>);</div><div class="line">        &#125;);</div><div class="line"></div><div class="line">        $(<span class="string">'a &gt; img'</span>).mouseleave(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">            $(<span class="keyword">this</span>).animate(&#123;<span class="attr">width</span>: <span class="string">'320px'</span>, <span class="attr">height</span>: <span class="string">'320px'</span>&#125;, <span class="string">'slow'</span>);</div><div class="line">        &#125;);</div><div class="line">    &#125;)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"http://code.jquery.com/jquery-latest.js"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line"></div><div class="line">    $(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">        $(<span class="string">"a &gt; img"</span>).mouseover(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">            $(<span class="keyword">this</span>).animate(&#123;<span class="attr">width</span>: <span class="string">'400px'</span>, <span class="attr">height</span>: <span class="string">'400px'</span>&#125;, <span class="string">'slow'</span>);</div><div class="line">        &#125;);</div><div class="line"></div><div class="line">        $(<span class="string">'a &gt; img'</span>).mouseleave(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">            $(<span class="keyword">this</span>).animate(&#123;<span class="attr">width</span>: <span class="string">'320px'</span>, <span class="attr">height</span>: <span class="string">'320px'</span>&#125;, <span class="string">'slow'</span>);</div><div class="line">        &#125;);</div><div class="line">    &#125;)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
 <h3 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h3><p><img src="http://of4osh4j5.bkt.clouddn.com/images-loop.gif" alt="http://of4osh4j5.bkt.clouddn.com/images-loop.gif"></p>
 <h3 id="一些CSS知识点"><a href="#一些CSS知识点" class="headerlink" title="一些CSS知识点"></a>一些CSS知识点</h3><blockquote>
 <p>CSS根据属性选择对应元素</p>
@@ -462,8 +462,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/test.html" rel="next" title="test">
-                <i class="fa fa-chevron-left"></i> test
+              <a href="/2016/html5-demo-login.html" rel="next" title="前端训练之登录界面">
+                <i class="fa fa-chevron-left"></i> 前端训练之登录界面
               </a>
             
           </div>
@@ -566,7 +566,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">12</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
