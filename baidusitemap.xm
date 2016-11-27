@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
+    <lastmod>2016-11-27T02:00:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>前端开发相关的学习资源汇总</title>
+        <pubTime>2016-11-27T01:48:21.000Z</pubTime>
+        
+        <tag>前端开发资源</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端开发资源" url="http://xxiang1x.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/html%E7%A7%BB%E5%8A%A8webApp-html5%E9%80%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E9%83%A8%E5%88%86.html</loc>
+    <lastmod>2016-11-27T01:58:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>html移动webApp html5通用代码部分</title>
+        <pubTime>2016-11-27T01:48:24.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+         
+           
+             
+              <breadCrumb title="HTML5" url="http://xxiang1x.com/categories/HTML5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/JS%E7%9A%84%E5%86%92%E6%B3%A1%E4%BA%8B%E4%BB%B6.html</loc>
     <lastmod>2016-11-27T01:38:53.000Z</lastmod>
     <data>
@@ -17,26 +57,6 @@
            
              
               <breadCrumb title="JavaScript" url="http://xxiang1x.com/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
-    <lastmod>2016-11-20T14:07:16.000Z</lastmod>
-    <data>
-        <display>
-        <title>前端开发学习笔记</title>
-        <pubTime>2016-11-09T14:00:33.000Z</pubTime>
-        
-        <tag>前端开发</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端开发" url="http://xxiang1x.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
           
         </display>
     </data>
