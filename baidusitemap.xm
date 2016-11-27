@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/JS%E7%9A%84%E5%86%92%E6%B3%A1%E4%BA%8B%E4%BB%B6.html</loc>
+    <lastmod>2016-11-27T01:38:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>JS的冒泡事件</title>
+        <pubTime>2016-11-27T01:37:23.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://xxiang1x.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
+    <lastmod>2016-11-20T14:07:16.000Z</lastmod>
+    <data>
+        <display>
+        <title>前端开发学习笔记</title>
+        <pubTime>2016-11-09T14:00:33.000Z</pubTime>
+        
+        <tag>前端开发</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端开发" url="http://xxiang1x.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/CSS%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%9F%A5%E7%9C%8B%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E5%92%8C%E7%BC%A9%E5%B0%8F%E5%8A%A8%E7%94%BB.html</loc>
     <lastmod>2016-11-20T11:26:34.000Z</lastmod>
     <data>
@@ -103,26 +143,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
-    <lastmod>2016-11-13T08:16:16.000Z</lastmod>
-    <data>
-        <display>
-        <title>前端开发学习笔记</title>
-        <pubTime>2016-11-09T14:00:33.000Z</pubTime>
-        
-        <tag>前端开发</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端开发" url="http://xxiang1x.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>

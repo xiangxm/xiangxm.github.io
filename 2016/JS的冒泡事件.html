@@ -87,7 +87,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="前端开发" />
+  <meta name="keywords" content="JavaScript" />
 
 
 
@@ -105,48 +105,19 @@
 
 
 
-<meta name="description" content="相关资源腾讯 AlloyTeam==&amp;gt;地址:http://alloyteam.github.io/
-腾讯开源
-w3schools
-CSS速查
-前端开发者博客Chrome自带开发者工具的使用
-一些实用的CSS技巧
-web开发者
-其他：
-html在移动设备上通用部分
-
-1234567891011121314151617181920&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;">
+<meta name="description" content="在一个对象上触发某类事件（比如单击onclick事件），如果此对象定义了此事件的处理程序，那么此事件就会调用这个处理程序，如果没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外，直至它被处理（父级对象所有同类事件都将被激活），或者它到达了对象层次的最顶层，即document对象（有些浏览器是window）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="前端开发学习笔记">
-<meta property="og:url" content="http://xxiang1x.com/2016/front-end-learn.html">
+<meta property="og:title" content="JS的冒泡事件">
+<meta property="og:url" content="http://xxiang1x.com/2016/JS的冒泡事件.html">
 <meta property="og:site_name" content="Rico's Blog">
-<meta property="og:description" content="相关资源腾讯 AlloyTeam==&amp;gt;地址:http://alloyteam.github.io/
-腾讯开源
-w3schools
-CSS速查
-前端开发者博客Chrome自带开发者工具的使用
-一些实用的CSS技巧
-web开发者
-其他：
-html在移动设备上通用部分
-
-1234567891011121314151617181920&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;">
-<meta property="og:image" content="http://of4osh4j5.bkt.clouddn.com/Screen%20Shot%202016-11-13%20at%201.11.14%20PM.png">
-<meta property="og:updated_time" content="2016-11-20T14:07:16.000Z">
+<meta property="og:description" content="在一个对象上触发某类事件（比如单击onclick事件），如果此对象定义了此事件的处理程序，那么此事件就会调用这个处理程序，如果没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外，直至它被处理（父级对象所有同类事件都将被激活），或者它到达了对象层次的最顶层，即document对象（有些浏览器是window）">
+<meta property="og:image" content="http://of4osh4j5.bkt.clouddn.com/propanation_js.gif">
+<meta property="og:image" content="http://of4osh4j5.bkt.clouddn.com/propanation_js_stop.gif">
+<meta property="og:updated_time" content="2016-11-27T01:38:53.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端开发学习笔记">
-<meta name="twitter:description" content="相关资源腾讯 AlloyTeam==&amp;gt;地址:http://alloyteam.github.io/
-腾讯开源
-w3schools
-CSS速查
-前端开发者博客Chrome自带开发者工具的使用
-一些实用的CSS技巧
-web开发者
-其他：
-html在移动设备上通用部分
-
-1234567891011121314151617181920&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;">
-<meta name="twitter:image" content="http://of4osh4j5.bkt.clouddn.com/Screen%20Shot%202016-11-13%20at%201.11.14%20PM.png">
+<meta name="twitter:title" content="JS的冒泡事件">
+<meta name="twitter:description" content="在一个对象上触发某类事件（比如单击onclick事件），如果此对象定义了此事件的处理程序，那么此事件就会调用这个处理程序，如果没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外，直至它被处理（父级对象所有同类事件都将被激活），或者它到达了对象层次的最顶层，即document对象（有些浏览器是window）">
+<meta name="twitter:image" content="http://of4osh4j5.bkt.clouddn.com/propanation_js.gif">
 
 
 
@@ -167,10 +138,10 @@ html在移动设备上通用部分
 
 
 
-  <link rel="canonical" href="http://xxiang1x.com/2016/front-end-learn.html"/>
+  <link rel="canonical" href="http://xxiang1x.com/2016/JS的冒泡事件.html"/>
 
 
-  <title> 前端开发学习笔记 | Rico's Blog </title>
+  <title> JS的冒泡事件 | Rico's Blog </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -353,7 +324,7 @@ html在移动设备上通用部分
             
             
               
-                前端开发学习笔记
+                JS的冒泡事件
               
             
           </h1>
@@ -365,8 +336,8 @@ html在移动设备上通用部分
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-09T22:00:33+08:00" content="2016-11-09">
-              2016-11-09
+            <time itemprop="dateCreated" datetime="2016-11-27T09:37:23+08:00" content="2016-11-27">
+              2016-11-27
             </time>
           </span>
 
@@ -379,8 +350,8 @@ html在移动设备上通用部分
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/前端开发/" itemprop="url" rel="index">
-                    <span itemprop="name">前端开发</span>
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
                   </a>
                 </span>
 
@@ -395,8 +366,8 @@ html在移动设备上通用部分
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/front-end-learn.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/front-end-learn.html" itemprop="commentsCount"></span>
+                <a href="/2016/JS的冒泡事件.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/JS的冒泡事件.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -406,7 +377,7 @@ html在移动设备上通用部分
 
           
           
-             <span id="/2016/front-end-learn.html" class="leancloud_visitors" data-flag-title="前端开发学习笔记">
+             <span id="/2016/JS的冒泡事件.html" class="leancloud_visitors" data-flag-title="JS的冒泡事件">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -428,37 +399,21 @@ html在移动设备上通用部分
       
 
       
-        <h2 id="相关资源"><a href="#相关资源" class="headerlink" title="相关资源"></a>相关资源</h2><p><a href="https://github.com/AlloyTeam" target="_blank" rel="external">腾讯 AlloyTeam</a>==&gt;地址:<a href="http://alloyteam.github.io/" target="_blank" rel="external">http://alloyteam.github.io/</a></p>
-<p><a href="http://tencentopen.github.io" target="_blank" rel="external">腾讯开源</a></p>
-<p><a href="http://www.w3schools.com/" target="_blank" rel="external">w3schools</a></p>
-<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference" target="_blank" rel="external">CSS速查</a></p>
-<h2 id="前端开发者博客"><a href="#前端开发者博客" class="headerlink" title="前端开发者博客"></a>前端开发者博客</h2><p><a href="http://www.cnblogs.com/libin-1/p/5999149.html" target="_blank" rel="external">Chrome自带开发者工具的使用</a></p>
-<p><a href="https://qianlongo.github.io/2016/04/19/%E8%81%8A%E4%B8%80%E8%81%8A%E8%BF%99%E4%BA%9B%E5%B8%B8%E8%A7%81%E8%80%8C%E4%B8%94%E5%AE%9E%E7%94%A8%E7%9A%84css%E6%8A%80%E5%B7%A7/" target="_blank" rel="external">一些实用的CSS技巧</a></p>
-<p><a href="http://weber.pub/" target="_blank" rel="external">web开发者</a></p>
-<h3 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h3><blockquote>
-<p>html在移动设备上通用部分</p>
+        <h3 id="JS的冒泡事件"><a href="#JS的冒泡事件" class="headerlink" title="JS的冒泡事件"></a>JS的冒泡事件</h3><h3 id="什么是冒泡事件？"><a href="#什么是冒泡事件？" class="headerlink" title="什么是冒泡事件？"></a>什么是冒泡事件？</h3><blockquote>
+<p>在一个对象上触发某类事件（比如单击onclick事件），如果此对象定义了此事件的处理程序，那么此事件就会调用这个处理程序，如果没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外，直至它被处理（父级对象所有同类事件都将被激活），或者它到达了对象层次的最顶层，即document对象（有些浏览器是window）</p>
+<p>这里使用简单的一个demo来演示一下js中的冒泡事件</p>
 </blockquote>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题-Android WebView可以获取<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"format-detection"</span> <span class="attr">content</span>=<span class="string">"telephone=no"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black"</span>/&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"这个是测试页面"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">""</span>/&gt;</span></div><div class="line">    <span class="comment">&lt;!--web mobile common--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--body--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="QA"><a href="#QA" class="headerlink" title="QA:"></a>QA:</h2><blockquote>
-<ol>
-<li>DIV中元素居中（比如div下包含a标签，如何让a标签居中显示）</li>
-<li>div整个居中 <a href="https://github.com/simaQ/cssfun/issues/3" target="_blank" rel="external">https://github.com/simaQ/cssfun/issues/3</a></li>
-</ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; position: relative;</div><div class="line">&gt; width: <span class="number">90</span>%;</div><div class="line">&gt; margin: auto;</div><div class="line">&gt; display: block;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-<ol>
-<li><p>javascript:void(0)含义</p>
-</li>
-<li><p>设置界面内容不溢出或者自动换行 </p>
-</li>
-<li><p>相关属性</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;    ::-webkit-input-placeholder &#123;</div><div class="line">&gt;    		text-align: right;</div><div class="line">&gt;    	&#125;</div><div class="line">&gt;    ::-moz-placeholder &#123;</div><div class="line">&gt;    		text-align: right;</div><div class="line">&gt;    	&#125;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="http://of4osh4j5.bkt.clouddn.com/propanation_js.gif" alt="http://of4osh4j5.bkt.clouddn.com/propanation_js.gif"></p>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"first_div"</span>&gt;</span></div><div class="line">    最外层div</div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"second_div"</span>&gt;</span></div><div class="line">        中间层</div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"third_div"</span>&gt;</span></div><div class="line">            最里层</div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"msg_div"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>也就是三个DIV分别为不同的背景色</p>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">&lt;style type="text/css"&gt;</div><div class="line"></div><div class="line">    div &#123;</div><div class="line"></div><div class="line">        border: solid 1px deepskyblue;</div><div class="line">        padding: 2em;</div><div class="line">        width: 30%</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    div .third_div &#123;</div><div class="line"></div><div class="line">        background-color: red;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    div .second_div &#123;</div><div class="line"></div><div class="line">        background-color: deepskyblue;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    .first_div &#123;</div><div class="line"></div><div class="line">        height: auto;</div><div class="line">        background-color: lawngreen;</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
+<h3 id="jquery添加事件并且在点击后有对应文本输出显示"><a href="#jquery添加事件并且在点击后有对应文本输出显示" class="headerlink" title="jquery添加事件并且在点击后有对应文本输出显示"></a>jquery添加事件并且在点击后有对应文本输出显示</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div></pre></td><td class="code"><pre><div class="line">&lt;!--javascript代码--&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div><div class="line">&lt;script type=<span class="string">"text/javascript"</span> language=<span class="string">"JavaScript"</span>&gt;</div><div class="line"></div><div class="line">    <span class="comment">//    alert(parseInt(Math.floor(Math.random() * 10)));</span></div><div class="line">    $(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">        $(<span class="string">'.third_div'</span>).bind(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line"></div><div class="line">            func(<span class="string">"你点击最里层DIV"</span>)</div><div class="line"><span class="comment">//            event.stopPropagation();</span></div><div class="line"><span class="comment">//            return false;</span></div><div class="line">        &#125;);</div><div class="line"></div><div class="line">        $(<span class="string">'.second_div'</span>).bind(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line"></div><div class="line">            func(<span class="string">"你点击了中间层DIV"</span>)</div><div class="line">            <span class="comment">//            event.stopPropagation();</span></div><div class="line"><span class="comment">//            return false;</span></div><div class="line">        &#125;);</div><div class="line">        $(<span class="string">'.first_div'</span>).bind(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line"></div><div class="line">            func(<span class="string">"你点击了最外层DIV"</span>)</div><div class="line"><span class="comment">//            event.stopPropagation();</span></div><div class="line"><span class="comment">//            return false;</span></div><div class="line">        &#125;);</div><div class="line">        $(<span class="string">'body'</span>).bind(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">            func(<span class="string">"你点击了body"</span>);</div><div class="line"><span class="comment">//            event.stopPropagation();</span></div><div class="line"><span class="comment">//            return false;</span></div><div class="line">        &#125;)</div><div class="line">    &#125;)</div><div class="line"></div><div class="line">    <span class="keyword">var</span> colorArray = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"blue"</span>, <span class="string">"grey"</span>, <span class="string">"green"</span>, <span class="string">"red"</span>, <span class="string">"orangered"</span>, <span class="string">"darkviolet"</span>, <span class="string">"orange"</span>, <span class="string">"crimson"</span>, <span class="string">"chartreuse"</span>, <span class="string">"black"</span>);</div><div class="line"></div><div class="line">    <span class="keyword">var</span> count = <span class="number">0</span>;</div><div class="line">    <span class="keyword">var</span> func = <span class="function"><span class="keyword">function</span> (<span class="params">str</span>) </span>&#123;</div><div class="line">        count++;</div><div class="line">        <span class="keyword">var</span> child = $(<span class="string">"&lt;div&gt;&lt;/div&gt;"</span>);</div><div class="line">        child.css(&#123;</div><div class="line">            <span class="string">"color"</span>: colorArray[<span class="built_in">parseInt</span>(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * <span class="number">10</span>))],</div><div class="line">            <span class="string">"border"</span>: <span class="string">"solid 1px grey"</span>,</div><div class="line">            <span class="string">"padding"</span>: <span class="string">"0.5em"</span></div><div class="line">        &#125;);</div><div class="line">        child.text(count + <span class="string">":"</span> + str);</div><div class="line">        $(<span class="string">'.msg_div'</span>).append(child);</div><div class="line">        <span class="keyword">if</span> (count % <span class="number">3</span> === <span class="number">0</span>) &#123;</div><div class="line">            count = <span class="number">0</span>;</div><div class="line">            $(<span class="string">'.msg_div div:last-child'</span>).after(<span class="string">"&lt;hr&gt;"</span>);</div><div class="line">        &#125;</div><div class="line">    &#125;;</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<h3 id="在最里层添加了阻止代码后效果"><a href="#在最里层添加了阻止代码后效果" class="headerlink" title="在最里层添加了阻止代码后效果"></a>在最里层添加了阻止代码后效果</h3><blockquote>
+<p>我们可以很明显的看到在使用了阻止的对应方法后，事件没有继续往上层走，被拦截在了当前这一层。</p>
 </blockquote>
-<h3 id="一些常规css"><a href="#一些常规css" class="headerlink" title="一些常规css"></a>一些常规css</h3><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">button &#123;</div><div class="line">    -webkit-appearance: none;</div><div class="line">    background: #007fff;</div><div class="line">    color: #fff;</div><div class="line">    border-radius: 2px;</div><div class="line">    border: none;</div><div class="line">    padding: 1.0em 1em;</div><div class="line">    font-size: 1em;</div><div class="line">    width: 100%;</div><div class="line">    height: auto;</div><div class="line">    cursor: pointer;</div><div class="line">    text-transform: none;</div><div class="line">    overflow: visible;</div><div class="line">    font: inherit;</div><div class="line">    margin: 0;</div><div class="line">    text-rendering: auto;</div><div class="line">    letter-spacing: normal;</div><div class="line">    word-spacing: normal;</div><div class="line">    text-indent: 0px;</div><div class="line">    text-shadow: none;</div><div class="line">    display: inline-block;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p><code>效果图如下</code></p>
-<p> <img src="http://of4osh4j5.bkt.clouddn.com/Screen%20Shot%202016-11-13%20at%201.11.14%20PM.png" alt="Screen Shot 2016-11-13 at 1.11.14 PM"></p>
-
+<p><img src="http://of4osh4j5.bkt.clouddn.com/propanation_js_stop.gif" alt="http://of4osh4j5.bkt.clouddn.com/propanation_js_stop.gif"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><code>阻止事件冒泡的几种方法</code></p>
+ <figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">第一种： <span class="keyword">event</span>.stopPropagation();</div><div class="line">第二种： <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">第三种： <span class="keyword">event</span>.preventDefault();</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -496,7 +451,7 @@ html在移动设备上通用部分
       
         <div class="post-tags">
           
-            <a href="/tags/前端开发/" rel="tag">#前端开发</a>
+            <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
           
         </div>
       
@@ -505,17 +460,13 @@ html在移动设备上通用部分
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/git学习.html" rel="next" title="git学习">
-                <i class="fa fa-chevron-left"></i> git学习
+              <a href="/2016/CSS简单实现图片查看，支持图片放大和缩小动画.html" rel="next" title="CSS简单实现图片查看，支持图片放大和缩小动画">
+                <i class="fa fa-chevron-left"></i> CSS简单实现图片查看，支持图片放大和缩小动画
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/html5-demo-add.html" rel="prev" title="前端训练之创建新增人员信息界面">
-                前端训练之创建新增人员信息界面 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -530,10 +481,10 @@ html在移动设备上通用部分
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/front-end-learn.html"
-     data-title="前端开发学习笔记"
+        <div class="ds-share flat" data-thread-key="2016/JS的冒泡事件.html"
+     data-title="JS的冒泡事件"
      data-content=""
-     data-url="http://xxiang1x.com/2016/front-end-learn.html">
+     data-url="http://xxiang1x.com/2016/JS的冒泡事件.html">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -563,8 +514,8 @@ html在移动设备上通用部分
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/front-end-learn.html"
-           data-title="前端开发学习笔记" data-url="http://xxiang1x.com/2016/front-end-learn.html">
+      <div class="ds-thread" data-thread-key="2016/JS的冒泡事件.html"
+           data-title="JS的冒泡事件" data-url="http://xxiang1x.com/2016/JS的冒泡事件.html">
       </div>
     
   </div>
@@ -709,7 +660,7 @@ html在移动设备上通用部分
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#相关资源"><span class="nav-number">1.</span> <span class="nav-text">相关资源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#前端开发者博客"><span class="nav-number">2.</span> <span class="nav-text">前端开发者博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#其他："><span class="nav-number">2.1.</span> <span class="nav-text">其他：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#QA"><span class="nav-number">3.</span> <span class="nav-text">QA:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一些常规css"><span class="nav-number">3.1.</span> <span class="nav-text">一些常规css</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#JS的冒泡事件"><span class="nav-number">1.</span> <span class="nav-text">JS的冒泡事件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是冒泡事件？"><span class="nav-number">2.</span> <span class="nav-text">什么是冒泡事件？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#效果图"><span class="nav-number">3.</span> <span class="nav-text">效果图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#布局"><span class="nav-number">4.</span> <span class="nav-text">布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS"><span class="nav-number">5.</span> <span class="nav-text">CSS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#jquery添加事件并且在点击后有对应文本输出显示"><span class="nav-number">6.</span> <span class="nav-text">jquery添加事件并且在点击后有对应文本输出显示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在最里层添加了阻止代码后效果"><span class="nav-number">7.</span> <span class="nav-text">在最里层添加了阻止代码后效果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">8.</span> <span class="nav-text">总结</span></a></li></ol></div>
             
           </div>
         </section>
