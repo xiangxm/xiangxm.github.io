@@ -105,16 +105,16 @@
 
 
 
-<meta name="description" content="Say hi, I&apos;m Rico">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Rico's Blog">
-<meta property="og:url" content="http://xxiang1x.com/about/index--.html">
+<meta name="description" content="12345678910111 android.os.Parcel.readException(Parcel.java:1465)2 android.os.Parcel.readException(Parcel.java:1419)3 android.app.ActivityManagerProxy.killBackgroundProcesses(ActivityManagerNative.java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用killBackgroundProcesses出现java.lang.SecurityException异常">
+<meta property="og:url" content="http://xxiang1x.com/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html">
 <meta property="og:site_name" content="Rico's Blog">
-<meta property="og:description" content="Say hi, I&apos;m Rico">
-<meta property="og:updated_time" content="2016-10-16T07:46:16.000Z">
+<meta property="og:description" content="12345678910111 android.os.Parcel.readException(Parcel.java:1465)2 android.os.Parcel.readException(Parcel.java:1419)3 android.app.ActivityManagerProxy.killBackgroundProcesses(ActivityManagerNative.java">
+<meta property="og:updated_time" content="2016-11-27T02:09:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Rico's Blog">
-<meta name="twitter:description" content="Say hi, I&apos;m Rico">
+<meta name="twitter:title" content="使用killBackgroundProcesses出现java.lang.SecurityException异常">
+<meta name="twitter:description" content="12345678910111 android.os.Parcel.readException(Parcel.java:1465)2 android.os.Parcel.readException(Parcel.java:1419)3 android.app.ActivityManagerProxy.killBackgroundProcesses(ActivityManagerNative.java">
 
 
 
@@ -135,16 +135,10 @@
 
 
 
-  <link rel="canonical" href="http://xxiang1x.com/about/index--.html"/>
+  <link rel="canonical" href="http://xxiang1x.com/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html"/>
 
 
-  <title>
-  
-
-  
-     | Rico's Blog
-  
-</title>
+  <title> 使用killBackgroundProcesses出现java.lang.SecurityException异常 | Rico's Blog </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -175,7 +169,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -308,21 +302,180 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                使用killBackgroundProcesses出现java.lang.SecurityException异常
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-27T10:08:32+08:00" content="2016-11-27">
+              2016-11-27
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html" class="leancloud_visitors" data-flag-title="使用killBackgroundProcesses出现java.lang.SecurityException异常">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
-    
+      
+
+      
+        <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="number">1</span> android.os.Parcel.readException(Parcel.java:<span class="number">1465</span>)</div><div class="line"><span class="number">2</span> android.os.Parcel.readException(Parcel.java:<span class="number">1419</span>)</div><div class="line"><span class="number">3</span> android.app.ActivityManagerProxy.killBackgroundProcesses(ActivityManagerNative.java:<span class="number">3772</span>)</div><div class="line"><span class="number">4</span> android.app.ActivityManager.killBackgroundProcesses(ActivityManager.java:<span class="number">1942</span>)</div><div class="line"><span class="number">5</span> com.flowerwaiter.activity.MainActivity.<span class="function"><span class="keyword">boolean</span> <span class="title">onKeyDown</span><span class="params">(<span class="keyword">int</span>,android.view.KeyEvent)</span><span class="params">(MainActivity.java:<span class="number">205</span>)</span></span></div><div class="line">6 android.view.KeyEvent.<span class="title">dispatch</span><span class="params">(KeyEvent.java:<span class="number">2640</span>)</span></div><div class="line">7 android.app.Activity.<span class="title">dispatchKeyEvent</span><span class="params">(Activity.java:<span class="number">2440</span>)</span></div><div class="line">8 android.support.v7.view.WindowCallbackWrapper.<span class="title">dispatchKeyEvent</span><span class="params">(WindowCallbackWrapper.java:<span class="number">50</span>)</span></div><div class="line">9 android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase.<span class="title">dispatchKeyEvent</span><span class="params">(AppCompatDelegateImplBase.java:<span class="number">224</span>)</span></div><div class="line">10 com.android.internal.policy.impl.PhoneWindow$DecorView.<span class="title">dispatchKeyEvent</span><span class="params">(PhoneWindow.java:<span class="number">1962</span>)</span></div><div class="line">11 android.view.ViewRootImpl$ViewPostImeInputStage.<span class="title">processKeyEvent</span><span class="params">(ViewRootImpl.java:<span class="number">3884</span>)</span></div></pre></td></tr></table></figure>
+<p>主要是因为需要添加权限(Android版本Android 4.4.4,level 19)，MIUI6.3会报错，MIUI7.0没有报错：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">#1 main</div><div class="line">java.lang.SecurityException</div><div class="line">Permission Denial: killBackgroundProcesses() from pid=32084, uid=10397 requires android.permission.KILL_BACKGROUND_PROCESSES</div></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://of4osh4j5.bkt.clouddn.com/IMG_0962.JPG" alt="Rico WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/Android中通用的混淆规则.html" rel="next" title="Android中通用的混淆规则">
+                <i class="fa fa-chevron-left"></i> Android中通用的混淆规则
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html"
+     data-title="使用killBackgroundProcesses出现java.lang.SecurityException异常"
+     data-content=""
+     data-url="http://xxiang1x.com/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
   </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="about/index--.html"
-           data-title="" data-url="http://xxiang1x.com/about/index--.html">
+      <div class="ds-thread" data-thread-key="2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html"
+           data-title="使用killBackgroundProcesses出现java.lang.SecurityException异常" data-url="http://xxiang1x.com/2016/使用killBackgroundProcesses出现java-lang-SecurityException异常.html">
       </div>
     
   </div>
@@ -346,8 +499,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://of4osh4j5.bkt.clouddn.com/xiangxm.png"
@@ -452,6 +614,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -554,6 +727,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 

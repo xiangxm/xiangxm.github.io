@@ -4,6 +4,41 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8killBackgroundProcesses%E5%87%BA%E7%8E%B0java-lang-SecurityException%E5%BC%82%E5%B8%B8.html</loc>
+    <lastmod>2016-11-27T02:09:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用killBackgroundProcesses出现java.lang.SecurityException异常</title>
+        <pubTime>2016-11-27T02:08:32.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/Android%E4%B8%AD%E9%80%9A%E7%94%A8%E7%9A%84%E6%B7%B7%E6%B7%86%E8%A7%84%E5%88%99.html</loc>
+    <lastmod>2016-11-27T02:07:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android中通用的混淆规则</title>
+        <pubTime>2016-11-27T02:06:18.000Z</pubTime>
+        
+        <tag>Android中通用的混淆规则</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://xxiang1x.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
     <lastmod>2016-11-27T02:00:14.000Z</lastmod>
     <data>
