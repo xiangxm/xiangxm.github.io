@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://xxiang1x.com/2016/Fragment%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F%E5%9B%BE.html</loc>
+    <lastmod>2016-11-27T02:13:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Fragment声明周期图</title>
+        <pubTime>2016-11-27T02:12:16.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://xxiang1x.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8killBackgroundProcesses%E5%87%BA%E7%8E%B0java-lang-SecurityException%E5%BC%82%E5%B8%B8.html</loc>
     <lastmod>2016-11-27T02:09:10.000Z</lastmod>
     <data>
