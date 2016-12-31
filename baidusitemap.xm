@@ -3,8 +3,29 @@
 
 
     
+    
   <url>
-    <loc>http://xxiang1x.com/2016/Fragment%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F%E5%9B%BE.html</loc>
+    <loc>http://xxiang1x.com/2016/11/27/Android%E4%B8%AD%E9%80%9A%E7%94%A8%E7%9A%84%E6%B7%B7%E6%B7%86%E8%A7%84%E5%88%99/</loc>
+    <lastmod>2016-12-03T05:50:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android中通用的混淆规则</title>
+        <pubTime>2016-11-27T02:06:18.000Z</pubTime>
+        
+        <tag>Android中通用的混淆规则</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://xxiang1x.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xxiang1x.com/2016/11/27/Fragment%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F%E5%9B%BE/</loc>
     <lastmod>2016-11-27T02:13:06.000Z</lastmod>
     <data>
         <display>
@@ -24,7 +45,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8killBackgroundProcesses%E5%87%BA%E7%8E%B0java-lang-SecurityException%E5%BC%82%E5%B8%B8.html</loc>
+    <loc>http://xxiang1x.com/2016/11/27/%E4%BD%BF%E7%94%A8killBackgroundProcesses%E5%87%BA%E7%8E%B0java-lang-SecurityException%E5%BC%82%E5%B8%B8/</loc>
     <lastmod>2016-11-27T02:09:10.000Z</lastmod>
     <data>
         <display>
@@ -39,27 +60,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/Android%E4%B8%AD%E9%80%9A%E7%94%A8%E7%9A%84%E6%B7%B7%E6%B7%86%E8%A7%84%E5%88%99.html</loc>
-    <lastmod>2016-11-27T02:07:45.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android中通用的混淆规则</title>
-        <pubTime>2016-11-27T02:06:18.000Z</pubTime>
-        
-        <tag>Android中通用的混淆规则</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="http://xxiang1x.com/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xxiang1x.com/2016/front-end-learn.html</loc>
+    <loc>http://xxiang1x.com/2016/11/27/front-end-learn/</loc>
     <lastmod>2016-11-27T02:00:14.000Z</lastmod>
     <data>
         <display>
@@ -79,7 +80,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/html%E7%A7%BB%E5%8A%A8webApp-html5%E9%80%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E9%83%A8%E5%88%86.html</loc>
+    <loc>http://xxiang1x.com/2016/11/27/html%E7%A7%BB%E5%8A%A8webApp-html5%E9%80%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E9%83%A8%E5%88%86/</loc>
     <lastmod>2016-11-27T01:58:52.000Z</lastmod>
     <data>
         <display>
@@ -99,7 +100,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/JS%E7%9A%84%E5%86%92%E6%B3%A1%E4%BA%8B%E4%BB%B6.html</loc>
+    <loc>http://xxiang1x.com/2016/11/27/JS%E7%9A%84%E5%86%92%E6%B3%A1%E4%BA%8B%E4%BB%B6/</loc>
     <lastmod>2016-11-27T01:38:53.000Z</lastmod>
     <data>
         <display>
@@ -119,7 +120,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/CSS%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%9F%A5%E7%9C%8B%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E5%92%8C%E7%BC%A9%E5%B0%8F%E5%8A%A8%E7%94%BB.html</loc>
+    <loc>http://xxiang1x.com/2016/11/17/CSS%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%9F%A5%E7%9C%8B%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E5%92%8C%E7%BC%A9%E5%B0%8F%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2016-11-20T11:26:34.000Z</lastmod>
     <data>
         <display>
@@ -139,7 +140,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/%E4%BD%BF%E7%94%A8ul%E5%88%9B%E5%BB%BA%E8%8F%9C%E5%8D%95%E6%A0%8F.html</loc>
+    <loc>http://xxiang1x.com/2016/11/17/%E4%BD%BF%E7%94%A8ul%E5%88%9B%E5%BB%BA%E8%8F%9C%E5%8D%95%E6%A0%8F/</loc>
     <lastmod>2016-11-17T15:12:11.000Z</lastmod>
     <data>
         <display>
@@ -159,7 +160,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/html5-demo-login.html</loc>
+    <loc>http://xxiang1x.com/2016/11/15/html5-demo-login/</loc>
     <lastmod>2016-11-17T14:49:44.000Z</lastmod>
     <data>
         <display>
@@ -179,7 +180,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/html5-demo-check.html</loc>
+    <loc>http://xxiang1x.com/2016/11/15/html5-demo-check/</loc>
     <lastmod>2016-11-17T14:49:20.000Z</lastmod>
     <data>
         <display>
@@ -199,7 +200,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/html5-demo-add.html</loc>
+    <loc>http://xxiang1x.com/2016/11/15/html5-demo-add/</loc>
     <lastmod>2016-11-17T14:48:40.000Z</lastmod>
     <data>
         <display>
@@ -220,7 +221,7 @@
     
     
   <url>
-    <loc>http://xxiang1x.com/2016/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</loc>
+    <loc>http://xxiang1x.com/2016/10/20/js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2016-11-09T14:01:15.000Z</lastmod>
     <data>
         <display>
@@ -240,7 +241,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/git%E5%AD%A6%E4%B9%A0.html</loc>
+    <loc>http://xxiang1x.com/2016/10/29/git%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2016-10-30T03:07:00.000Z</lastmod>
     <data>
         <display>
@@ -260,7 +261,7 @@
 
     
   <url>
-    <loc>http://xxiang1x.com/2016/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</loc>
+    <loc>http://xxiang1x.com/2016/10/27/Android%20Studio%E5%9C%A8Windows%E5%92%8CMac%E4%B8%8B%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2016-10-29T05:48:57.000Z</lastmod>
     <data>
         <display>
@@ -281,7 +282,7 @@
     
     
   <url>
-    <loc>http://xxiang1x.com/2016/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE.html</loc>
+    <loc>http://xxiang1x.com/2016/10/16/Hexo-next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2016-10-27T22:38:59.000Z</lastmod>
     <data>
         <display>
@@ -302,7 +303,7 @@
     
     
   <url>
-    <loc>http://xxiang1x.com/2016/hello-world.html</loc>
+    <loc>http://xxiang1x.com/2016/10/16/hello-world/</loc>
     <lastmod>2016-10-25T23:35:45.000Z</lastmod>
     <data>
         <display>
@@ -318,7 +319,6 @@
     </data>
     </url>
 
-    
     
     
     
