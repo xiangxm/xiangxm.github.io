@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xxiang1x.com/categories/index.html</loc>
+    
+    <lastmod>2016-12-31T07:38:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xxiang1x.com/tags/index.html</loc>
     
     <lastmod>2016-12-31T04:00:02.000Z</lastmod>
@@ -138,13 +145,6 @@
     <loc>http://xxiang1x.com/2016/10/16/hello-world/</loc>
     
     <lastmod>2016-10-25T23:35:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xxiang1x.com/categories/index.html</loc>
-    
-    <lastmod>2016-10-25T23:32:22.000Z</lastmod>
     
   </url>
   
